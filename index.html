@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firebase Data Retrieval</title>
+  <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="display">
+      <div class="data">
+        <h1>Data from Firebase</h1>
+        <pre id="data-display"></pre>
+        <pre id="data-display2"></pre>
+        <pre id="data-display3"></pre>
+        <pre id="data-display4"></pre>
+        <input type="number" placeholder="Enter Your monthly goal here" id="inputgoal">
+        <h4 id="gvalue"></h4>
+      </div>
+    <button id="ele1" >Elec : 1</button>
+    <button id="ele0" >Elec : 0</button>
+    <br/>
+    <br/>
+    <button id="wat1" >Water : 1</button>
+    <button id="wat0" >Water : 0</button>
+  </div>
+  <!-- Include Firebase JavaScript SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.3/firebase-database-compat.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+</html>

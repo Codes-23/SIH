@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.display{
+    
+    height:800px;
+    width:600px;
+    background-color:rgb(67, 211, 236);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left : 33%;
+    
+}
+.display h1{
+    font-size: 3rem;
+    align-items: center;
+    margin-top: 80px;
+}
+.data{
+    font-size: 1.25rem;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+button{
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    margin-left: 88px;
+    margin-top: 50px;
+    
+}
+#inputgoal{
+    width:200px;
+    height:40px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: grey;
+}
